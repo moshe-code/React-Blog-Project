@@ -13,3 +13,37 @@ code {
 }
 
 /* App */
+
+.App-root{
+  /* background-color: aqua; */
+  height: 100vh;
+}
+
+.App-content{
+  height: 93vh;
+}
+
+/* NAv */
+.Nav-root{
+  height: 7vh;
+  background-color: rgba(29, 27, 27, 0.774);
+}
+
+/* Home */
+
+.Home-root{
+  background-color: burlywood;
+  height: 100%;
+}
+
+
+/* CreateBlog */
+
+.CreateBlog-root{
+  background-color: rgb(41, 146, 81);
+  height: 100%;
+}
+
+
+
+
