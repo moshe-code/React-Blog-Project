@@ -12,6 +12,7 @@ const App = () => {
       <Navbar />
       <div className='App-content'>
       <Routes>
+        <Route  path="" element={<Home />}/>
         <Route  path="/home" element={<Home />}/>
         <Route  path="/createblog" element={<CreateBlog />}/>
       </Routes>

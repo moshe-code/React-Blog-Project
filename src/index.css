@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins:ital,wght@1,300&family=Quicksand&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Quicksand";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,27 +11,64 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: crimson;
+  zoom: 1.2;
+  transform: scale(1.2);
+  transition: transform 1s;
+
+
+}
+
 /* App */
 
 .App-root{
   /* background-color: aqua; */
   height: 100vh;
+  max-width: 600px;
+  margin: auto;
+
 }
 
 .App-content{
-  height: 93vh;
+  height: 90vh;
 }
 
-/* NAv */
+/* Nav */
 .Nav-root{
-  height: 7vh;
-  background-color: rgba(29, 27, 27, 0.774);
+  height: 10vh;
+  /* background-color: rgba(221, 213, 213, 0.774); */
+  display: flex;
+  padding-right:20px;
+  padding-left:20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #b5b5b5;
 }
+
+.Nav-title{
+  align-self: center;
+  width: 70%;
+  color: #7fbecc;
+  
+}
+
+.Nav-links{
+  width: 30%;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
 
 /* Home */
 
 .Home-root{
-  background-color: burlywood;
+  /* background-color: burlywood; */
   height: 100%;
 }
 
@@ -40,7 +76,7 @@ code {
 /* CreateBlog */
 
 .CreateBlog-root{
-  background-color: rgb(41, 146, 81);
+  /* background-color: rgb(41, 146, 81); */
   height: 100%;
 }
 
