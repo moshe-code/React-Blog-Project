@@ -80,6 +80,14 @@ a:hover{
   height: 100%;
 }
 
+.blog-container{
+  display: grid;
+}
+
+#submit-button{
+  background-color: blue;
+  border-radius: 10px;
+}
 
 
 
