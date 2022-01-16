@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import CreateBlog from './components/CreateBlog';
-
+import NotFound from './NotFound';
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +15,9 @@ const App = () => {
         <Route  path="" element={<Home />}/>
         <Route  path="/home" element={<Home />}/>
         <Route  path="/createblog" element={<CreateBlog />}/>
+        <Route path="*">
+            <NotFound />
+        </Route>
       </Routes>
       </div>
     </div>
