@@ -36,7 +36,7 @@ const Home = () => {
                         todoList.map(element =>{
                             return <li key={`todo-item-${element.id}`}
                             style={{
-                                textDecoration: element.completed ? 'line-through' : 'none',
+                                // textDecoration: element.completed ? 'line-through' : 'none',
                                 color:element.userId % 2 == 0 ? "blue" : "red"
 
                             }}
