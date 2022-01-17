@@ -1,13 +1,14 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import CreateBlog from './components/CreateBlog';
-import NotFound from './NotFound';
+import NotFound from './components/NotFound';
+
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
        <div className="App-root">
       <Navbar />
       <div className='App-content'>
@@ -15,13 +16,11 @@ const App = () => {
         <Route  path="" element={<Home />}/>
         <Route  path="/home" element={<Home />}/>
         <Route  path="/createblog" element={<CreateBlog />}/>
-        <Route path="*">
-            <NotFound />
-        </Route>
+        <Route path="*" element={<NotFound />}/>
       </Routes>
       </div>
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
