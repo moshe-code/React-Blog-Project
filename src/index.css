@@ -4,6 +4,7 @@ body {
   font-family: "Quicksand";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
@@ -88,6 +89,13 @@ a:hover{
   background-color: blue;
   border-radius: 10px;
 }
+/* */
+.BlogItem-root{
+transition: box-shadow.3s;
 
+}
+.BlogItem-root:hover{
+  box-shadow: 12px 12px 16px
 
+}
 

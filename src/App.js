@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import CreateBlog from './components/CreateBlog';
 import NotFound from './components/NotFound';
+import BlogDetails from './components/BlogDetails';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route  path="" element={<Home />}/>
         <Route  path="/home" element={<Home />}/>
         <Route  path="/createblog" element={<CreateBlog />}/>
+        <Route  path="/blogs/:id" element={<BlogDetails />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
       </div>

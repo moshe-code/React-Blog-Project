@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "id": 1,
+            "title":"My first blog",
+            "body": "Learning react with a bit of back-end.Learning react with a bit of back-end.",
+            "author": "Moshe"
+        },
+        {
+            "id": 2,
+            "title":"My second blog",
+            "body": "Learning react with a bit of back-end.Learning react with a bit of back-end.",
+            "author": "Dor"
+        },
+        {
+            "id": 3,
+            "title":"cool blog",
+            "body": "Learning react with a bit of back-end.Learning react with a bit of back-end.",
+            "author": "Sarah"
+        }
+    ]
+}
